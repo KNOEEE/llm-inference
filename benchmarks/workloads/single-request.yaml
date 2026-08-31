@@ -1,0 +1,14 @@
+name: single-request
+seed: 42
+model: Qwen/Qwen3-0.6B
+sampling:
+  temperature: 0.0
+  max_tokens: 128
+requests:
+  - id: short
+    prompt_tokens_target: 128
+  - id: medium
+    prompt_tokens_target: 512
+  - id: long
+    prompt_tokens_target: 2048
+

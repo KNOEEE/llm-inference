@@ -1,0 +1,18 @@
+tiny_llm:
+  url: https://github.com/skyzh/tiny-llm.git
+  path: ../tiny-llm
+  commit: null
+  notes: tiny-llm-notes.md
+
+nano_vllm:
+  url: https://github.com/GeeeekExplorer/nano-vllm.git
+  path: ../nano-vllm
+  commit: null
+  notes: nano-vllm-notes.md
+
+vllm:
+  url: https://github.com/vllm-project/vllm.git
+  path: ../vllm
+  commit: null
+  notes: vllm-notes.md
+

@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Editors and operating systems
+.DS_Store
+.idea/
+.vscode/
+
+# Models and large artifacts
+/models/
+/checkpoints/
+/artifacts/*
+!/artifacts/README.md
+*.safetensors
+*.gguf
+*.onnx
+*.pt
+*.pth
+
+# Profilers and generated benchmark output
+profiles/
+*.nsys-rep
+*.ncu-rep
+benchmarks/results/*
+!benchmarks/results/README.md
+
+# Local configuration
+.env
+.env.*
+!.env.example

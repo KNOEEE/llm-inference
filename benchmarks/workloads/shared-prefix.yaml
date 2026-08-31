@@ -1,0 +1,9 @@
+name: shared-prefix
+seed: 42
+model: Qwen/Qwen3-0.6B
+concurrency: [1, 8, 32]
+shared_prefix_ratio: [0.0, 0.5, 0.9]
+shared_prefix_tokens: 256
+suffix_tokens_target: 128
+output_tokens_target: 64
+

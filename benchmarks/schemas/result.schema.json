@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "LLM inference benchmark result",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "recorded_at",
+    "git_commit",
+    "backend",
+    "model",
+    "workload",
+    "system",
+    "metrics"
+  ],
+  "properties": {
+    "schema_version": {"const": 1},
+    "recorded_at": {"type": "string"},
+    "git_commit": {"type": "string"},
+    "backend": {"type": "string"},
+    "model": {"type": "string"},
+    "workload": {"type": "string"},
+    "system": {
+      "type": "object",
+      "required": ["os", "python"],
+      "properties": {
+        "os": {"type": "string"},
+        "python": {"type": "string"},
+        "device": {"type": "string"},
+        "dependencies": {"type": "object"}
+      }
+    },
+    "config": {"type": "object"},
+    "metrics": {
+      "type": "object",
+      "properties": {
+        "ttft_ms": {"$ref": "#/$defs/percentiles"},
+        "tpot_ms": {"$ref": "#/$defs/percentiles"},
+        "requests_per_second": {"type": "number"},
+        "tokens_per_second": {"type": "number"},
+        "peak_memory_bytes": {"type": "integer"},
+        "error_rate": {"type": "number"}
+      }
+    },
+    "samples": {"type": "array", "items": {"type": "object"}}
+  },
+  "$defs": {
+    "percentiles": {
+      "type": "object",
+      "properties": {
+        "p50": {"type": "number"},
+        "p95": {"type": "number"},
+        "p99": {"type": "number"}
+      }
+    }
+  }
+}
+
