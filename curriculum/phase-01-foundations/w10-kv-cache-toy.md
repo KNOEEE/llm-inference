@@ -6,29 +6,29 @@ estimated_hours: 8
 status: planned
 ---
 
-# Week 10：Naive decode 与 KV cache toy
+# Week 10: Naive Decoding and a Toy KV Cache
 
-## 本周目标
+## Goals
 
-- 理解 prefill/decode 分离。
-- 证明 cache 消除旧 K/V 重算。
+- Understand prefill and decode separation.
+- Show that caching removes old K/V recomputation.
 
-## 实验
+## Lab
 
-实现全前缀 decode 和 KV-cache decode，比较输出与计算量。
+Implement full-prefix and KV-cache decoding and compare output and work.
 
-## 交付物
+## Deliverables
 
-- cache on/off 对照报告。
+- A cache-on/cache-off report.
 
-## 验收标准
+## Acceptance criteria
 
-- [ ] greedy token 完全一致。
-- [ ] 能推导 KV bytes/token。
+- [ ] Produce identical greedy tokens.
+- [ ] Derive KV bytes per token.
 
-## 复盘
+## Retrospective
 
-- 实际投入：
-- 最大困难：
-- 尚未解决：
+- Actual time spent:
+- Biggest difficulty:
+- Unresolved questions:
 

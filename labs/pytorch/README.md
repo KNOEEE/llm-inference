@@ -1,6 +1,6 @@
 # PyTorch Labs
 
-对应 W01–W05。建议按 `tensor-basics`、`stride-and-view`、`module-state`、`autograd`、`testing-profiler` 逐步创建练习。
+These labs correspond to W01-W05. Create exercises for tensor basics, strides and views, module state, autograd, and testing/profiling.
 
-每个练习先在 CPU 运行，再在 M4 的 MPS 上做容差对照。不要在这里引入大型数据集。
+Run each exercise on CPU first, then compare against MPS on the M4 with an explicit tolerance. Do not introduce large datasets here.
 

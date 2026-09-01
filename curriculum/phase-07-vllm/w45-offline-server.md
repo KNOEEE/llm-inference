@@ -6,29 +6,29 @@ estimated_hours: 8
 status: planned
 ---
 
-# Week 45：vLLM offline 与 API server
+# Week 45: vLLM Offline Inference and API Server
 
-## 本周目标
+## Goals
 
-- 固定 vLLM release/容器。
-- 运行离线和在线两种入口。
+- Pin a vLLM release or container.
+- Run offline and online entry points.
 
-## 实验
+## Lab
 
-使用同一模型、tokenizer 和采样参数建立 baseline。
+Build baselines with identical model, tokenizer, and sampling.
 
-## 交付物
+## Deliverables
 
-- vLLM baseline。
+- A vLLM baseline.
 
-## 验收标准
+## Acceptance criteria
 
-- [ ] 两种入口均可复现。
-- [ ] 记录完整环境与启动参数。
+- [ ] Reproduce both entry points.
+- [ ] Record environment and launch parameters.
 
-## 复盘
+## Retrospective
 
-- 实际投入：
-- 最大困难：
-- 尚未解决：
+- Actual time spent:
+- Biggest difficulty:
+- Unresolved questions:
 

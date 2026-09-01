@@ -6,29 +6,29 @@ estimated_hours: 8
 status: planned
 ---
 
-# Week 40：Fused attention 与模型接入
+# Week 40: Fused Attention and Model Integration
 
-## 本周目标
+## Goals
 
-- 理解 online softmax 和 causal tiling。
-- 把至少一个 Triton op 接入 Qwen 路径。
+- Understand online softmax and causal tiling.
+- Integrate one Triton operator into Qwen.
 
-## 实验
+## Lab
 
-阅读 fused attention，实现或修改教学版本，并完成端到端 logits 回归。
+Study fused attention and run end-to-end logits regression.
 
-## 交付物
+## Deliverables
 
-- Triton 集成阶段报告。
+- A Triton integration report.
 
-## 验收标准
+## Acceptance criteria
 
-- [ ] 端到端结果在容差内。
-- [ ] 异常 shape 自动 fallback。
+- [ ] Preserve end-to-end output.
+- [ ] Fall back safely for unsupported shapes.
 
-## 复盘
+## Retrospective
 
-- 实际投入：
-- 最大困难：
-- 尚未解决：
+- Actual time spent:
+- Biggest difficulty:
+- Unresolved questions:
 

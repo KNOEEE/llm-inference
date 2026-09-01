@@ -6,29 +6,29 @@ estimated_hours: 8
 status: planned
 ---
 
-# Week 22：Tiny-LLM Week 2 集成与验收
+# Week 22: Tiny-LLM Week 2 Integration and Review
 
-## 本周目标
+## Goals
 
-- 整合 cache、benchmark 和选择性 kernel。
-- 验证端到端收益。
+- Integrate caching, benchmarks, and selected kernels.
+- Validate end-to-end gains.
 
-## 实验
+## Lab
 
-运行统一 prompt/context sweep，整理正确性和性能数据。
+Run a shared prompt and context-length sweep.
 
-## 交付物
+## Deliverables
 
-- 单请求优化阶段报告。
+- A single-request optimization report.
 
-## 验收标准
+## Acceptance criteria
 
-- [ ] 所有加速结论 matched workload。
-- [ ] 能解释 microbench 与端到端差异。
+- [ ] Use matched workloads for every speedup.
+- [ ] Explain microbenchmark versus end-to-end results.
 
-## 复盘
+## Retrospective
 
-- 实际投入：
-- 最大困难：
-- 尚未解决：
+- Actual time spent:
+- Biggest difficulty:
+- Unresolved questions:
 

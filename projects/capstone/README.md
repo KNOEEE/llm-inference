@@ -1,8 +1,8 @@
 # Capstone
 
-W49–W52 的毕业项目。
+This is the W49-W52 graduation project.
 
-推荐题目：在 Nano-vLLM 上实现并评估一个可观测的调度策略，使用相同 workload 与原版 Nano-vLLM、vLLM 对照。
+Recommended topic: implement and evaluate an observable scheduling policy in Nano-vLLM, then compare it with unmodified Nano-vLLM and vLLM using the same workloads.
 
-最终必须包含问题、假设、baseline、实现、测试、实验矩阵、原始数据、失败分析、限制和复现步骤。
+The final submission must include the problem, hypothesis, baseline, implementation, tests, experiment matrix, raw data, failure analysis, limitations, and reproduction steps.
 

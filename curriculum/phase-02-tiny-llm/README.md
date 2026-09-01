@@ -1,23 +1,23 @@
-# Phase：Tiny-LLM、MLX/Metal 与 serving 核心
+# Phase: Tiny-LLM, MLX/Metal, and Serving Fundamentals
 
-- 周期：W11–W28
-- 主要环境：M4 MacBook
+- Weeks: W11-W28
+- Primary environment: M4 MacBook
 
-## 进入条件
+## Entry criteria
 
-完成 Phase 1；能够解释 GQA、RoPE、RMSNorm、prefill 和 decode。
+Complete Phase 1 and be able to explain GQA, RoPE, RMSNorm, prefill, and decode.
 
-## 阶段目标
+## Phase outcome
 
-完成 Qwen3-0.6B 可读推理器、dense KV cache、一个自写 Metal kernel，以及带 paged KV 和调度 trace 的 mini serving engine。
+Build a readable Qwen3-0.6B inference engine, dense KV cache, one custom Metal kernel, and a mini serving engine with paged KV and scheduling traces.
 
-## 主要资料
+## Primary resources
 
 - https://skyzh.github.io/tiny-llm/
 - https://skyzh.github.io/tiny-llm/week2-overview.html
 - https://skyzh.github.io/tiny-llm/week3-overview.html
 
-## 阶段复盘
+## Phase retrospective
 
-完成本阶段后，在 `reports/` 对应文件中记录：已掌握内容、数据证据、失败案例和下一阶段风险。
+At the end of this phase, record mastered concepts, evidence, failures, and risks for the next phase in the matching file under `reports/`.
 

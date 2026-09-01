@@ -6,29 +6,29 @@ estimated_hours: 8
 status: planned
 ---
 
-# Week 35：Tiled matmul 与 RMSNorm
+# Week 35: Tiled Matrix Multiplication and RMSNorm
 
-## 本周目标
+## Goals
 
-- 学习 tiling、共享内存和 occupancy。
-- 迁移同一个 RMSNorm oracle。
+- Learn tiling, shared memory, and occupancy.
+- Port the shared RMSNorm oracle.
 
-## 实验
+## Lab
 
-实现 tiled matmul 或课程规模版本，并完成 CUDA RMSNorm。
+Implement course-scale tiled matmul and CUDA RMSNorm.
 
-## 交付物
+## Deliverables
 
-- 两个 CUDA kernel 实验。
+- Two CUDA kernel labs.
 
-## 验收标准
+## Acceptance criteria
 
-- [ ] FP32 accumulate 明确。
-- [ ] 至少三个 shape 有结果。
+- [ ] State accumulation precision.
+- [ ] Report at least three shapes.
 
-## 复盘
+## Retrospective
 
-- 实际投入：
-- 最大困难：
-- 尚未解决：
+- Actual time spent:
+- Biggest difficulty:
+- Unresolved questions:
 

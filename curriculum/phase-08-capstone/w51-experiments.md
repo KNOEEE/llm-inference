@@ -6,29 +6,29 @@ estimated_hours: 8
 status: planned
 ---
 
-# Week 51：实验矩阵、消融与失败分析
+# Week 51: Experiment Matrix, Ablations, and Failure Analysis
 
-## 本周目标
+## Goals
 
-- 执行完整 workload sweep。
-- 进行消融和 profiler 分析。
+- Run the complete workload sweep.
+- Perform ablations and profiler analysis.
 
-## 实验
+## Lab
 
-保存原始 JSON、环境信息和图表，分析至少一次失败。
+Save raw JSON, environment metadata, and plots and analyze a failure.
 
-## 交付物
+## Deliverables
 
-- 实验结果与失败复盘。
+- Results and a failure retrospective.
 
-## 验收标准
+## Acceptance criteria
 
-- [ ] 禁止只展示单次峰值。
-- [ ] 结论可以由原始数据复核。
+- [ ] Do not report one peak number only.
+- [ ] Make conclusions auditable.
 
-## 复盘
+## Retrospective
 
-- 实际投入：
-- 最大困难：
-- 尚未解决：
+- Actual time spent:
+- Biggest difficulty:
+- Unresolved questions:
 

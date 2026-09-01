@@ -6,29 +6,29 @@ estimated_hours: 8
 status: planned
 ---
 
-# Week 11：MLX 与 Tiny-LLM 环境
+# Week 11: MLX and the Tiny-LLM Environment
 
-## 本周目标
+## Goals
 
-- 熟悉 MLX lazy evaluation 和数组接口。
-- 固定 Tiny-LLM commit 与 Qwen3-0.6B baseline。
+- Learn MLX lazy evaluation and arrays.
+- Pin a Tiny-LLM commit and Qwen3-0.6B baseline.
 
-## 实验
+## Lab
 
-在 M4 上运行参考路径，记录模型、版本、内存和生成结果。
+Run the reference path on M4 and record model, versions, memory, and output.
 
-## 交付物
+## Deliverables
 
-- Tiny-LLM 环境记录。
+- A Tiny-LLM environment record.
 
-## 验收标准
+## Acceptance criteria
 
-- [ ] Qwen3-0.6B 可以生成文本。
-- [ ] 记录 `mlx`、`mlx-lm` 和仓库 commit。
+- [ ] Generate text with Qwen3-0.6B.
+- [ ] Record MLX, mlx-lm, and repository commits.
 
-## 复盘
+## Retrospective
 
-- 实际投入：
-- 最大困难：
-- 尚未解决：
+- Actual time spent:
+- Biggest difficulty:
+- Unresolved questions:
 

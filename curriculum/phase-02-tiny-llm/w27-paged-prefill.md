@@ -6,29 +6,29 @@ estimated_hours: 8
 status: planned
 ---
 
-# Week 27：Paged prefill 与系统测量
+# Week 27: Paged Prefill and System Measurement
 
-## 本周目标
+## Goals
 
-- 理解长 query 的 page-aware attention。
-- 建立 serving 指标。
+- Understand page-aware attention for long queries.
+- Establish serving metrics.
 
-## 实验
+## Lab
 
-完成不同 prompt、并发度和 page pool 大小的 sweep。
+Sweep prompt lengths, concurrency, and page-pool sizes.
 
-## 交付物
+## Deliverables
 
-- TTFT/TPOT/吞吐/KV 报告。
+- A TTFT, TPOT, throughput, and KV report.
 
-## 验收标准
+## Acceptance criteria
 
-- [ ] 同时报告延迟与吞吐。
-- [ ] 不把单请求变慢误判为系统失败。
+- [ ] Report latency and throughput together.
+- [ ] Do not misread single-request slowdown as system failure.
 
-## 复盘
+## Retrospective
 
-- 实际投入：
-- 最大困难：
-- 尚未解决：
+- Actual time spent:
+- Biggest difficulty:
+- Unresolved questions:
 

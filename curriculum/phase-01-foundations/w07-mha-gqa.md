@@ -6,29 +6,29 @@ estimated_hours: 8
 status: planned
 ---
 
-# Week 07：MHA 与 GQA
+# Week 07: MHA and GQA
 
-## 本周目标
+## Goals
 
-- 从 shape 理解多头注意力。
-- 理解 GQA 的 KV head 复用。
+- Understand multi-head attention through shapes.
+- Understand KV-head sharing in GQA.
 
-## 实验
+## Lab
 
-实现 MHA 和 GQA，比较输出 shape 与 KV bytes/token。
+Implement MHA and GQA and compare output shapes and KV bytes per token.
 
-## 交付物
+## Deliverables
 
-- 纯 PyTorch MHA/GQA。
+- Pure PyTorch MHA and GQA.
 
-## 验收标准
+## Acceptance criteria
 
-- [ ] 与朴素 reference 对齐。
-- [ ] 能计算 GQA 的 cache 节省。
+- [ ] Match a naive reference.
+- [ ] Calculate GQA cache savings.
 
-## 复盘
+## Retrospective
 
-- 实际投入：
-- 最大困难：
-- 尚未解决：
+- Actual time spent:
+- Biggest difficulty:
+- Unresolved questions:
 

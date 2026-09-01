@@ -6,29 +6,29 @@ estimated_hours: 8
 status: planned
 ---
 
-# Week 31：Load generator 与指标
+# Week 31: Load Generator and Metrics
 
-## 本周目标
+## Goals
 
-- 生成固定请求分布。
-- 计算 TTFT、TPOT、吞吐和分位数。
+- Generate fixed request distributions.
+- Compute TTFT, TPOT, throughput, and percentiles.
 
-## 实验
+## Lab
 
-实现短短、长 prefill、混合长度和共享前缀 workload。
+Implement short, long-prefill, mixed, and shared-prefix workloads.
 
-## 交付物
+## Deliverables
 
-- 异步 load generator。
+- An asynchronous load generator.
 
-## 验收标准
+## Acceptance criteria
 
-- [ ] 固定 seed 可重放。
-- [ ] 区分 client queueing 与 engine time。
+- [ ] Replay with a fixed seed.
+- [ ] Separate client queueing from engine time.
 
-## 复盘
+## Retrospective
 
-- 实际投入：
-- 最大困难：
-- 尚未解决：
+- Actual time spent:
+- Biggest difficulty:
+- Unresolved questions:
 

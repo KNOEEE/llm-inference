@@ -6,29 +6,29 @@ estimated_hours: 8
 status: planned
 ---
 
-# Week 26：Direct paged attention
+# Week 26: Direct Paged Attention
 
-## 本周目标
+## Goals
 
-- 让 attention 直接读取非连续 KV page。
-- 避免先 gather 为 dense cache。
+- Read non-contiguous KV pages directly.
+- Avoid gathering pages into dense KV first.
 
-## 实验
+## Lab
 
-对同一请求比较 dense、paged-gather 和 direct-paged 输出。
+Compare dense, paged-gather, and direct-paged outputs.
 
-## 交付物
+## Deliverables
 
-- direct paged attention 实现。
+- A direct paged-attention implementation.
 
-## 验收标准
+## Acceptance criteria
 
-- [ ] 三条路径结果在容差内。
-- [ ] 确认热路径没有 dense rebuild。
+- [ ] Match all paths within tolerance.
+- [ ] Confirm the hot path never rebuilds dense KV.
 
-## 复盘
+## Retrospective
 
-- 实际投入：
-- 最大困难：
-- 尚未解决：
+- Actual time spent:
+- Biggest difficulty:
+- Unresolved questions:
 

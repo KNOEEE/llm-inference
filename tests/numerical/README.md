@@ -1,4 +1,4 @@
 # Numerical Tests
 
-覆盖极值、非 2 次幂、非连续输入、FP16/BF16 accumulate 和 softmax 稳定性。
+Cover extreme values, non-power-of-two sizes, non-contiguous inputs, FP16/BF16 accumulation, and softmax stability.
 

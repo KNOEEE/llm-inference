@@ -1,4 +1,4 @@
 # Benchmark Reports
 
-每份报告都应链接到 workload 配置和原始结果，说明实验假设、环境、变量、结论、限制和失败案例。
+Every report must link to its workload configuration and raw results, and must describe the hypothesis, environment, variables, conclusions, limitations, and failure cases.
 

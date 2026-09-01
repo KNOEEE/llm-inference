@@ -1,16 +1,16 @@
-# Lab 名称
+# Lab Name
 
-## 目标
+## Goal
 
-## 前置知识
+## Prerequisites
 
-## 运行方式
+## Run instructions
 
-## 正确性 oracle
+## Correctness oracle
 
-## 实验矩阵
+## Experiment matrix
 
-## 验收标准
+## Acceptance criteria
 
-## 结论
+## Conclusions
 

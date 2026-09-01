@@ -30,7 +30,7 @@ def main() -> int:
         found[week] = path
 
         text = path.read_text(encoding="utf-8")
-        required = (f"week: {week}", "status:", "## 本周目标", "## 验收标准")
+        required = (f"week: {week}", "status:", "## Goals", "## Acceptance criteria")
         for marker in required:
             if marker not in text:
                 errors.append(f"{path.relative_to(ROOT)} missing {marker!r}")

@@ -6,29 +6,29 @@ estimated_hours: 8
 status: planned
 ---
 
-# Week 37：Triton program、block 与 mask
+# Week 37: Triton Programs, Blocks, and Masks
 
-## 本周目标
+## Goals
 
-- 理解 program_id、blocked indexing 和 mask。
-- 完成官方 vector add 风格实验。
+- Understand program IDs, blocked indexing, and masks.
+- Complete a vector-addition lab.
 
-## 实验
+## Lab
 
-实现多 shape vector add，检查尾块和 stride。
+Implement multiple shapes and test tail blocks and strides.
 
-## 交付物
+## Deliverables
 
-- Triton vector add。
+- Triton vector addition.
 
-## 验收标准
+## Acceptance criteria
 
-- [ ] 非整块长度正确。
-- [ ] 分开首次编译和稳态延迟。
+- [ ] Handle non-aligned lengths.
+- [ ] Separate compilation from steady-state latency.
 
-## 复盘
+## Retrospective
 
-- 实际投入：
-- 最大困难：
-- 尚未解决：
+- Actual time spent:
+- Biggest difficulty:
+- Unresolved questions:
 

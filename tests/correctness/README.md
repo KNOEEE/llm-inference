@@ -1,4 +1,4 @@
 # Correctness Tests
 
-保存 reference 与优化实现的逐算子和端到端对照。测试需固定 seed，并明确 dtype 对应的误差阈值。
+Store operator-level and end-to-end comparisons between reference and optimized implementations. Fix the random seed and state an explicit tolerance for each dtype.
 

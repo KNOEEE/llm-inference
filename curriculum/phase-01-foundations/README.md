@@ -1,21 +1,21 @@
-# Phase：PyTorch 与 Transformer 基础
+# Phase: PyTorch and Transformer Foundations
 
-- 周期：W01–W10
-- 主要环境：CPU Linux 或 M4 MacBook
+- Weeks: W01-W10
+- Primary environment: CPU Linux or M4 MacBook
 
-## 进入条件
+## Entry criteria
 
-具备基础 Python 阅读能力；如果不足，先完成 `labs/pytorch/` 中的 Python/NumPy 补缺。
+You can read basic Python. If not, complete the Python/NumPy prerequisites under `labs/pytorch/` first.
 
-## 阶段目标
+## Phase outcome
 
-可以标注 decoder 前向的所有 tensor shape，实现一层 decoder 和 KV cache toy，并用测试验证 cache 前后输出。
+You can annotate every tensor shape in a decoder forward pass, implement one decoder layer and a toy KV cache, and verify cache-on/cache-off output with tests.
 
-## 主要资料
+## Primary resources
 
 - https://docs.pytorch.org/tutorials/beginner/basics/intro.html
 
-## 阶段复盘
+## Phase retrospective
 
-完成本阶段后，在 `reports/` 对应文件中记录：已掌握内容、数据证据、失败案例和下一阶段风险。
+At the end of this phase, record mastered concepts, evidence, failures, and risks for the next phase in the matching file under `reports/`.
 

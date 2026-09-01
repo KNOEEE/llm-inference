@@ -6,29 +6,29 @@ estimated_hours: 8
 status: planned
 ---
 
-# Week 50：实现、测试与 instrumentation
+# Week 50: Implementation, Tests, and Instrumentation
 
-## 本周目标
+## Goals
 
-- 完成最小功能闭环。
-- 加入正确性、边界和结构化 trace。
+- Complete the minimum functional loop.
+- Add correctness, boundaries, and structured traces.
 
-## 实验
+## Lab
 
-实现核心改动，保留 fallback，并运行回归。
+Implement the core change, retain fallback, and run regressions.
 
-## 交付物
+## Deliverables
 
-- 可测试的 capstone 实现。
+- A testable capstone implementation.
 
-## 验收标准
+## Acceptance criteria
 
-- [ ] 功能测试通过。
-- [ ] 失败输入有明确行为。
+- [ ] Pass functional tests.
+- [ ] Define invalid-input behavior.
 
-## 复盘
+## Retrospective
 
-- 实际投入：
-- 最大困难：
-- 尚未解决：
+- Actual time spent:
+- Biggest difficulty:
+- Unresolved questions:
 

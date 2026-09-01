@@ -1,12 +1,12 @@
 # Serving Benchmark
 
-为 Tiny-LLM、Nano-vLLM 和 vLLM 提供一致的 workload 与指标口径。
+Provide a consistent workload and metric definition for Tiny-LLM, Nano-vLLM, and vLLM.
 
-至少支持：
+At minimum, support:
 
-- 固定 prompt/output 长度；
-- 混合长短请求；
-- 并发度 sweep；
-- 共享前缀比例；
-- TTFT、TPOT、request/token throughput、p50/p95、错误率。
+- fixed prompt and output lengths;
+- mixed short and long requests;
+- concurrency sweeps;
+- shared-prefix ratios;
+- TTFT, TPOT, request/token throughput, p50/p95, and error rate.
 

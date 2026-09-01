@@ -6,29 +6,29 @@ estimated_hours: 8
 status: planned
 ---
 
-# Week 06：Embedding、Linear、softmax 与 causal mask
+# Week 06: Embeddings, Linear Layers, Softmax, and Causal Masks
 
-## 本周目标
+## Goals
 
-- 理解 token 到 Q/K/V 的数据流。
-- 实现数值稳定 softmax 和 causal mask。
+- Understand the token-to-Q/K/V path.
+- Implement stable softmax and a causal mask.
 
-## 实验
+## Lab
 
-不用 `nn.Transformer` 组装 attention 的输入路径。
+Assemble attention inputs without nn.Transformer.
 
-## 交付物
+## Deliverables
 
-- attention 输入流水线。
+- An attention input pipeline.
 
-## 验收标准
+## Acceptance criteria
 
-- [ ] mask 没有 off-by-one。
-- [ ] 极大 logits 下 softmax 不溢出。
+- [ ] Avoid mask off-by-one errors.
+- [ ] Prevent softmax overflow for large logits.
 
-## 复盘
+## Retrospective
 
-- 实际投入：
-- 最大困难：
-- 尚未解决：
+- Actual time spent:
+- Biggest difficulty:
+- Unresolved questions:
 

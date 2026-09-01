@@ -1,11 +1,11 @@
 # Tests
 
-测试按能力分组，而不是按平台复制。
+Organize tests by capability rather than duplicating them by platform.
 
-- `correctness/`：reference 与优化实现对照；
-- `numerical/`：dtype、容差、极值和稳定性；
-- `scheduling/`：请求状态、block/page 生命周期；
-- `integration/`：端到端模型与服务。
+- `correctness/`: compare reference and optimized implementations;
+- `numerical/`: dtypes, tolerances, extreme values, and stability;
+- `scheduling/`: request states and block/page lifecycles;
+- `integration/`: end-to-end models and services.
 
-使用根目录 `pytest.ini` 的 `cpu`、`mps`、`mlx`、`cuda` 和 `slow` marker。
+Use the `cpu`, `mps`, `mlx`, `cuda`, and `slow` markers defined in the root `pytest.ini`.
 

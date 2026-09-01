@@ -6,29 +6,29 @@ estimated_hours: 8
 status: planned
 ---
 
-# Week 04：Autograd 与最小训练循环
+# Week 04: Autograd and a Minimal Training Loop
 
-## 本周目标
+## Goals
 
-- 理解计算图、梯度和 optimizer。
-- 只学习推理所需的训练背景。
+- Understand computation graphs, gradients, and optimizers.
+- Learn only the training background needed for inference.
 
-## 实验
+## Lab
 
-让一个极小模型过拟合 tiny dataset，随后切换到推理模式。
+Overfit a tiny dataset with a small model, then switch it to inference mode.
 
-## 交付物
+## Deliverables
 
-- 最小训练与推理脚本。
+- A minimal training and inference script.
 
-## 验收标准
+## Acceptance criteria
 
-- [ ] loss 明显下降。
-- [ ] 能解释 no_grad 与 inference_mode。
+- [ ] Show a clear loss decrease.
+- [ ] Explain no_grad and inference_mode.
 
-## 复盘
+## Retrospective
 
-- 实际投入：
-- 最大困难：
-- 尚未解决：
+- Actual time spent:
+- Biggest difficulty:
+- Unresolved questions:
 

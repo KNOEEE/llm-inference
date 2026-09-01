@@ -6,29 +6,29 @@ estimated_hours: 8
 status: planned
 ---
 
-# Week 13：Tiny-LLM RoPE 与 GQA
+# Week 13: Tiny-LLM RoPE and GQA
 
-## 本周目标
+## Goals
 
-- 实现 Qwen3 的位置编码和 grouped heads。
-- 核对 position 与 head layout。
+- Implement Qwen3 position encoding and grouped heads.
+- Verify position and head layouts.
 
-## 实验
+## Lab
 
-用短序列和增量位置测试 RoPE/GQA。
+Test RoPE and GQA with short sequences and incremental positions.
 
-## 交付物
+## Deliverables
 
-- RoPE/GQA 实现和 shape 图。
+- A RoPE/GQA implementation and shape diagram.
 
-## 验收标准
+## Acceptance criteria
 
-- [ ] 位置没有偏移错误。
-- [ ] head repeat 与 reference 一致。
+- [ ] Avoid position-offset errors.
+- [ ] Match reference head repetition.
 
-## 复盘
+## Retrospective
 
-- 实际投入：
-- 最大困难：
-- 尚未解决：
+- Actual time spent:
+- Biggest difficulty:
+- Unresolved questions:
 

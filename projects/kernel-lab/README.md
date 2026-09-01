@@ -1,8 +1,8 @@
 # Kernel Lab
 
-用同一个 correctness harness 比较 PyTorch/MLX/Metal/CUDA/Triton。推荐只完整跨后端复刻一个代表性算子，例如 RMSNorm。
+Use one correctness harness to compare PyTorch, MLX, Metal, CUDA, and Triton. Fully port only one representative operator across all backends, such as RMSNorm.
 
-每个算子目录应包含：
+Each operator directory should eventually contain:
 
 ```text
 README.md
@@ -16,5 +16,5 @@ bench.py
 results/
 ```
 
-不要为了填目录而提前创建空实现。
+Do not create empty implementations merely to fill the directory.
 

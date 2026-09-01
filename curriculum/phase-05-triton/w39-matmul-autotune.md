@@ -6,29 +6,29 @@ estimated_hours: 8
 status: planned
 ---
 
-# Week 39：Matmul、autotune 与 shape dispatch
+# Week 39: Matrix Multiplication, Autotuning, and Shape Dispatch
 
-## 本周目标
+## Goals
 
-- 理解 block matmul、L2 friendly 排序和 autotune。
-- 避免动态 shape 编译爆炸。
+- Understand block matmul, L2 ordering, and autotuning.
+- Avoid dynamic-shape compilation explosions.
 
-## 实验
+## Lab
 
-基于官方教程做有限配置 sweep，并增加 fallback guard。
+Run a bounded configuration sweep and add fallback guards.
 
-## 交付物
+## Deliverables
 
-- 多 shape matmul 报告。
+- A multi-shape matmul report.
 
-## 验收标准
+## Acceptance criteria
 
-- [ ] 不把编译时间算入稳态。
-- [ ] 性能结论不只选赢家 shape。
+- [ ] Exclude compilation from steady-state timing.
+- [ ] Report more than winning shapes.
 
-## 复盘
+## Retrospective
 
-- 实际投入：
-- 最大困难：
-- 尚未解决：
+- Actual time spent:
+- Biggest difficulty:
+- Unresolved questions:
 

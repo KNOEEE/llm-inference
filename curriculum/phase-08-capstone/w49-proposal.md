@@ -6,29 +6,29 @@ estimated_hours: 8
 status: planned
 ---
 
-# Week 49：毕业项目提案与 baseline
+# Week 49: Capstone Proposal and Baseline
 
-## 本周目标
+## Goals
 
-- 确定问题、假设和成功标准。
-- 冻结 baseline、workload 和指标。
+- Define the question, hypothesis, and success criteria.
+- Freeze baseline, workload, and metrics.
 
-## 实验
+## Lab
 
-从 kernel 或 scheduler 方向选一个题目，写实验提案。
+Choose a kernel or scheduler topic and write the proposal.
 
-## 交付物
+## Deliverables
 
-- capstone proposal。
+- A capstone proposal.
 
-## 验收标准
+## Acceptance criteria
 
-- [ ] 范围能在四周完成。
-- [ ] baseline 可复现。
+- [ ] Keep scope achievable in four weeks.
+- [ ] Make the baseline reproducible.
 
-## 复盘
+## Retrospective
 
-- 实际投入：
-- 最大困难：
-- 尚未解决：
+- Actual time spent:
+- Biggest difficulty:
+- Unresolved questions:
 

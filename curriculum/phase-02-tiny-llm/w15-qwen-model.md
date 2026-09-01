@@ -6,29 +6,29 @@ estimated_hours: 8
 status: planned
 ---
 
-# Week 15：Qwen3 block 与完整模型
+# Week 15: Qwen3 Block and Complete Model
 
-## 本周目标
+## Goals
 
-- 组装 Transformer block 和模型。
-- 追踪 residual path。
+- Assemble the Transformer block and model.
+- Trace the residual path.
 
-## 实验
+## Lab
 
-从单层开始逐步扩展到完整 Qwen3 前向。
+Start with one layer and expand to a complete Qwen3 forward pass.
 
-## 交付物
+## Deliverables
 
-- 完整模型前向。
+- A complete model forward pass.
 
-## 验收标准
+## Acceptance criteria
 
-- [ ] 单层和整模均通过测试。
-- [ ] 能定位任意一层 logits 偏差。
+- [ ] Pass single-layer and full-model tests.
+- [ ] Locate a logits mismatch at any layer.
 
-## 复盘
+## Retrospective
 
-- 实际投入：
-- 最大困难：
-- 尚未解决：
+- Actual time spent:
+- Biggest difficulty:
+- Unresolved questions:
 

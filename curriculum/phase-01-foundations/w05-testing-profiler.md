@@ -6,29 +6,29 @@ estimated_hours: 8
 status: planned
 ---
 
-# Week 05：数值正确性、pytest 与 profiler
+# Week 05: Numerical Correctness, pytest, and Profiling
 
-## 本周目标
+## Goals
 
-- 建立 reference/optimized 对照方法。
-- 掌握容差、warmup 和基本 profiler。
+- Build a reference-versus-optimized workflow.
+- Learn tolerances, warmup, and basic profiling.
 
-## 实验
+## Lab
 
-为前四周代码补随机 shape、异常输入和性能基线。
+Add random shapes, invalid inputs, and baselines to earlier code.
 
-## 交付物
+## Deliverables
 
-- 基础测试套件与 benchmark 记录。
+- A foundational test suite and benchmark record.
 
-## 验收标准
+## Acceptance criteria
 
-- [ ] 测试可重复运行。
-- [ ] 不使用单次 wall-clock 宣称加速。
+- [ ] Run tests reproducibly.
+- [ ] Never claim speedup from one wall-clock sample.
 
-## 复盘
+## Retrospective
 
-- 实际投入：
-- 最大困难：
-- 尚未解决：
+- Actual time spent:
+- Biggest difficulty:
+- Unresolved questions:
 

@@ -6,29 +6,29 @@ estimated_hours: 8
 status: planned
 ---
 
-# Week 23：Continuous batching
+# Week 23: Continuous Batching
 
-## 本周目标
+## Goals
 
-- 理解请求状态和 slot 复用。
-- 实现新请求中途加入。
+- Understand request states and slot reuse.
+- Allow requests to join while others run.
 
-## 实验
+## Lab
 
-使用不同长度请求记录每一步 active sequences。
+Record active sequences at every step for varied request lengths.
 
-## 交付物
+## Deliverables
 
-- 多请求调度时间线。
+- A multi-request scheduling timeline.
 
-## 验收标准
+## Acceptance criteria
 
-- [ ] 完成请求及时释放 slot。
-- [ ] 结果不受批次重排影响。
+- [ ] Release slots promptly.
+- [ ] Keep output invariant under batch reordering.
 
-## 复盘
+## Retrospective
 
-- 实际投入：
-- 最大困难：
-- 尚未解决：
+- Actual time spent:
+- Biggest difficulty:
+- Unresolved questions:
 

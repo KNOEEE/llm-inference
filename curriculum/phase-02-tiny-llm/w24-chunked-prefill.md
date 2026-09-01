@@ -6,29 +6,29 @@ estimated_hours: 8
 status: planned
 ---
 
-# Week 24：Chunked prefill 与公平性
+# Week 24: Chunked Prefill and Fairness
 
-## 本周目标
+## Goals
 
-- 理解 token budget。
-- 避免长 prompt 独占调度器。
+- Understand token budgets.
+- Prevent long prompts from monopolizing the scheduler.
 
-## 实验
+## Lab
 
-构造一个长 prefill 加多个短 decode 的确定性 trace。
+Trace one long prefill with several short decode requests.
 
-## 交付物
+## Deliverables
 
-- chunked prefill 实验。
+- A chunked-prefill experiment.
 
-## 验收标准
+## Acceptance criteria
 
-- [ ] 能解释 TTFT/吞吐取舍。
-- [ ] 不存在明显饥饿。
+- [ ] Explain the TTFT-throughput trade-off.
+- [ ] Avoid obvious starvation.
 
-## 复盘
+## Retrospective
 
-- 实际投入：
-- 最大困难：
-- 尚未解决：
+- Actual time spent:
+- Biggest difficulty:
+- Unresolved questions:
 
