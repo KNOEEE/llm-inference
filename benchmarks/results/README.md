@@ -1,6 +1,6 @@
 # Results
 
-小型原始 JSON 可以按日期和 backend 保存，例如：
+Small raw JSON files may be organized by date and backend, for example:
 
 ```text
 2026-09-01/
@@ -8,5 +8,5 @@
   mlx-baseline.json
 ```
 
-目录中的生成结果默认被忽略；需要提交时使用 `git add -f` 并在相邻报告中解释用途。
+Generated results in this directory are ignored by default. Use `git add -f` only when a result must be committed, and explain why in the adjacent report.
 

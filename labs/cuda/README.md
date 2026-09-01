@@ -1,6 +1,6 @@
 # CUDA Labs
 
-对应 W33–W36。每个 kernel 至少包含 PyTorch reference、CUDA 实现、边界测试和 benchmark。
+These labs correspond to W33-W36. Every kernel must include a PyTorch reference, CUDA implementation, boundary tests, and benchmark.
 
-建议顺序：vector add → reduction → RMSNorm → tiled matmul。所有测试先跑 compute-sanitizer，再做性能分析。
+Suggested order: vector addition, reduction, RMSNorm, and tiled matrix multiplication. Run compute-sanitizer before performance profiling.
 

@@ -1,4 +1,4 @@
 # Paper Notes
 
-每篇笔记包含：问题、核心方法、关键图表、假设、与本课程的关系以及尚未理解的问题。只保存笔记和公开链接。
+Each note should cover the problem, core method, key figures, assumptions, relationship to this curriculum, and unresolved questions. Store only notes and public links.
 

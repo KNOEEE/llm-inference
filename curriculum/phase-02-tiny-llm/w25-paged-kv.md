@@ -6,29 +6,29 @@ estimated_hours: 8
 status: planned
 ---
 
-# Week 25：Paged KV allocator
+# Week 25: Paged KV Allocator
 
-## 本周目标
+## Goals
 
-- 理解逻辑 block 与物理 page。
-- 实现分配、释放和复用 invariant。
+- Understand logical blocks and physical pages.
+- Implement allocation, release, and reuse invariants.
 
-## 实验
+## Lab
 
-在 CPU scripted model 上缩小 page pool，强制触发边界情况。
+Shrink the page pool under a scripted model to force boundaries.
 
-## 交付物
+## Deliverables
 
-- BlockManager 状态机测试。
+- BlockManager state-machine tests.
 
-## 验收标准
+## Acceptance criteria
 
-- [ ] 无泄漏和重复释放。
-- [ ] 可以预测每一步 block table。
+- [ ] Prevent leaks and double frees.
+- [ ] Predict the block table at every step.
 
-## 复盘
+## Retrospective
 
-- 实际投入：
-- 最大困难：
-- 尚未解决：
+- Actual time spent:
+- Biggest difficulty:
+- Unresolved questions:
 

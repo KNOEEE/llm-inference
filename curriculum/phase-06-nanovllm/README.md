@@ -1,21 +1,21 @@
-# Phase：Nano-vLLM
+# Phase: Nano-vLLM
 
-- 周期：W41–W44
-- 主要环境：NVIDIA Linux，先单卡 TP=1
+- Weeks: W41-W44
+- Primary environment: NVIDIA Linux, starting with one GPU and TP=1
 
-## 进入条件
+## Entry criteria
 
-可以独立运行 Qwen3-0.6B，理解 KV block、continuous batching 和 CUDA Graph 的基本动机。
+You can run Qwen3-0.6B independently and understand the motivation for KV blocks, continuous batching, and CUDA Graphs.
 
-## 阶段目标
+## Phase outcome
 
-能沿一条请求解释 Sequence、BlockManager、Scheduler、ModelRunner 和 Attention，并完成至少一个可测改动。
+Trace one request through Sequence, BlockManager, Scheduler, ModelRunner, and Attention, and complete at least one measurable change.
 
-## 主要资料
+## Primary resources
 
 - https://github.com/GeeeekExplorer/nano-vllm
 
-## 阶段复盘
+## Phase retrospective
 
-完成本阶段后，在 `reports/` 对应文件中记录：已掌握内容、数据证据、失败案例和下一阶段风险。
+At the end of this phase, record mastered concepts, evidence, failures, and risks for the next phase in the matching file under `reports/`.
 

@@ -6,29 +6,29 @@ estimated_hours: 8
 status: planned
 ---
 
-# Week 33：CUDA 执行模型与 vector add
+# Week 33: CUDA Execution Model and Vector Addition
 
-## 本周目标
+## Goals
 
-- 理解 host/device、grid、block、thread 和 warp。
-- 编写第一个 CUDA kernel。
+- Understand host/device, grid, block, thread, and warp.
+- Write the first CUDA kernel.
 
-## 实验
+## Lab
 
-实现 vector add，覆盖尾部长度并与 PyTorch 比较。
+Implement vector addition with tail handling and compare with PyTorch.
 
-## 交付物
+## Deliverables
 
-- CUDA vector add。
+- CUDA vector addition.
 
-## 验收标准
+## Acceptance criteria
 
-- [ ] compute-sanitizer 无越界。
-- [ ] 异步执行计时正确。
+- [ ] Pass compute-sanitizer.
+- [ ] Time asynchronous execution correctly.
 
-## 复盘
+## Retrospective
 
-- 实际投入：
-- 最大困难：
-- 尚未解决：
+- Actual time spent:
+- Biggest difficulty:
+- Unresolved questions:
 

@@ -6,29 +6,29 @@ estimated_hours: 8
 status: planned
 ---
 
-# Week 47：调度、KV、并发度与 SLO
+# Week 47: Scheduling, KV Cache, Concurrency, and SLOs
 
-## 本周目标
+## Goals
 
-- 学习参数 sweep 和容量曲线。
-- 理解吞吐与尾延迟取舍。
+- Learn parameter sweeps and capacity curves.
+- Understand throughput and tail-latency trade-offs.
 
-## 实验
+## Lab
 
-改变并发度、token budget、KV 配额、prefix cache 和 chunked prefill。
+Vary concurrency, token budgets, KV allocation, and cache features.
 
-## 交付物
+## Deliverables
 
-- vLLM SLO 报告。
+- A vLLM SLO report.
 
-## 验收标准
+## Acceptance criteria
 
-- [ ] 报告 p50/p95 和失败率。
-- [ ] 每次只改变可归因变量。
+- [ ] Report p50, p95, and errors.
+- [ ] Change only attributable variables.
 
-## 复盘
+## Retrospective
 
-- 实际投入：
-- 最大困难：
-- 尚未解决：
+- Actual time spent:
+- Biggest difficulty:
+- Unresolved questions:
 

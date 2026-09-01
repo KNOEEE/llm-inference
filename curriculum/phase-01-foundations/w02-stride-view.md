@@ -6,29 +6,29 @@ estimated_hours: 8
 status: planned
 ---
 
-# Week 02：广播、stride、view 与 contiguous
+# Week 02: Broadcasting, Strides, Views, and Contiguity
 
-## 本周目标
+## Goals
 
-- 理解广播规则和内存布局。
-- 区分 view、reshape、transpose 和 contiguous。
+- Understand broadcasting and memory layout.
+- Distinguish view, reshape, transpose, and contiguous.
 
-## 实验
+## Lab
 
-构造非连续 Tensor，验证不同 reshape 操作及其错误边界。
+Construct non-contiguous tensors and test valid and invalid reshaping operations.
 
-## 交付物
+## Deliverables
 
-- 非连续 Tensor 的测试用例。
+- Non-contiguous tensor tests.
 
-## 验收标准
+## Acceptance criteria
 
-- [ ] 能读出 shape 与 stride。
-- [ ] 测试覆盖广播失败和非连续输入。
+- [ ] Read shape and stride correctly.
+- [ ] Cover failed broadcasts and non-contiguous inputs.
 
-## 复盘
+## Retrospective
 
-- 实际投入：
-- 最大困难：
-- 尚未解决：
+- Actual time spent:
+- Biggest difficulty:
+- Unresolved questions:
 

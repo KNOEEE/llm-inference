@@ -6,29 +6,29 @@ estimated_hours: 8
 status: planned
 ---
 
-# Week 44：Prefix cache、CUDA Graph 与 preemption
+# Week 44: Prefix Cache, CUDA Graphs, and Preemption
 
-## 本周目标
+## Goals
 
-- 量化共享前缀收益。
-- 理解 graph replay 和 shape bucket。
+- Quantify shared-prefix gains.
+- Understand graph replay and shape buckets.
 
-## 实验
+## Lab
 
-做共享/非共享前缀、eager/graph、正常/抢占三组实验。
+Compare shared prefixes, graph modes, and preemption.
 
-## 交付物
+## Deliverables
 
-- Nano-vLLM 阶段报告。
+- A Nano-vLLM phase report.
 
-## 验收标准
+## Acceptance criteria
 
-- [ ] 输出不因 preemption 改变。
-- [ ] 同时报告 TTFT、TPOT 和吞吐。
+- [ ] Keep output unchanged after preemption.
+- [ ] Report TTFT, TPOT, and throughput.
 
-## 复盘
+## Retrospective
 
-- 实际投入：
-- 最大困难：
-- 尚未解决：
+- Actual time spent:
+- Biggest difficulty:
+- Unresolved questions:
 

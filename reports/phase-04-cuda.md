@@ -1,16 +1,16 @@
-# CUDA阶段总结
+# CUDA Phase Report
 
-## 完成范围
+## Completed scope
 
-## 关键实现
+## Key implementations
 
-## 正确性证据
+## Correctness evidence
 
-## 性能或系统证据
+## Performance or system evidence
 
-## 最重要的失败
+## Most important failure
 
-## 尚未解决
+## Unresolved questions
 
-## 下一阶段风险
+## Risks for the next phase
 

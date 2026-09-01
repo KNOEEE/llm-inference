@@ -6,29 +6,29 @@ estimated_hours: 8
 status: planned
 ---
 
-# Week 42：Sequence、BlockManager 与 Scheduler
+# Week 42: Sequence, BlockManager, and Scheduler
 
-## 本周目标
+## Goals
 
-- 理解 waiting/running、token budget 和 preemption。
-- 追踪 block 分配与 prefix hash。
+- Understand queues, token budgets, and preemption.
+- Trace block allocation and prefix hashes.
 
-## 实验
+## Lab
 
-加入结构化 trace，并对分配、引用计数、释放写测试。
+Add traces and tests for allocation, reference counts, and release.
 
-## 交付物
+## Deliverables
 
-- scheduler/block trace。
+- A scheduler and block trace.
 
-## 验收标准
+## Acceptance criteria
 
-- [ ] 能在纸上预测一次 schedule。
-- [ ] 无 block 生命周期疑点。
+- [ ] Predict one schedule step on paper.
+- [ ] Resolve the block lifecycle.
 
-## 复盘
+## Retrospective
 
-- 实际投入：
-- 最大困难：
-- 尚未解决：
+- Actual time spent:
+- Biggest difficulty:
+- Unresolved questions:
 

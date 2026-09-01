@@ -6,29 +6,29 @@ estimated_hours: 8
 status: planned
 ---
 
-# Week 16：权重加载、generation 与 Week 1 验收
+# Week 16: Weight Loading, Generation, and Week 1 Review
 
-## 本周目标
+## Goals
 
-- 掌握权重名称/shape 映射。
-- 完成生成循环和采样。
+- Understand weight-name and shape mapping.
+- Complete generation and sampling.
 
-## 实验
+## Lab
 
-加载 Qwen3-0.6B 权重，用固定 prompt 做端到端对照。
+Load Qwen3-0.6B and compare end to end with a fixed prompt.
 
-## 交付物
+## Deliverables
 
-- 可读版 Qwen3 推理器。
+- A readable Qwen3 inference engine.
 
-## 验收标准
+## Acceptance criteria
 
-- [ ] Week 1 gate 全部通过。
-- [ ] 固定 prompt 结果稳定。
+- [ ] Pass every Week 1 gate.
+- [ ] Produce stable fixed-prompt output.
 
-## 复盘
+## Retrospective
 
-- 实际投入：
-- 最大困难：
-- 尚未解决：
+- Actual time spent:
+- Biggest difficulty:
+- Unresolved questions:
 

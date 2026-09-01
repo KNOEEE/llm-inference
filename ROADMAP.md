@@ -1,63 +1,63 @@
-# 52 周路线图
+# 52-Week Roadmap
 
-时间是建议值，不是截止日期。每一阶段通过验收后再进入下一阶段。
+The schedule is a recommendation, not a deadline. Advance only after meeting each phase's acceptance criteria.
 
-| 周 | 主题 | 主要设备 | 核心交付物 |
+| Week | Topic | Primary hardware | Core deliverable |
 |---:|---|---|---|
-| 01 | Tensor、shape、dtype、device | CPU/M4 | Tensor 观察实验 |
-| 02 | 广播、stride、view、contiguous | CPU/M4 | 非连续 Tensor 测试 |
-| 03 | Module、Parameter、state_dict | CPU/M4 | 可保存的小模块 |
-| 04 | Autograd 与最小训练循环 | CPU/M4 | 过拟合 tiny dataset |
-| 05 | 数值正确性、pytest、profiler | CPU/M4 | 测试与性能基线 |
-| 06 | Embedding、Linear、softmax、mask | CPU/M4 | attention 输入流水线 |
-| 07 | MHA 与 GQA | CPU/M4 | 纯 PyTorch attention |
-| 08 | RoPE、RMSNorm、SwiGLU | CPU/M4 | 三个基础算子 |
-| 09 | Decoder block 与采样 | CPU/M4 | 一层 decoder |
-| 10 | Naive decode 与 KV cache toy | CPU/M4 | cache 前后对照 |
-| 11 | MLX 与 Tiny-LLM 环境 | M4 | Qwen3-0.6B baseline |
+| 01 | Tensors, shapes, dtypes, and devices | CPU/M4 | Tensor observation lab |
+| 02 | Broadcasting, strides, views, and contiguity | CPU/M4 | Non-contiguous tensor tests |
+| 03 | Modules, parameters, and state dictionaries | CPU/M4 | A saveable module |
+| 04 | Autograd and a minimal training loop | CPU/M4 | Overfit a tiny dataset |
+| 05 | Numerical correctness, pytest, and profiling | CPU/M4 | Tests and performance baseline |
+| 06 | Embeddings, linear layers, softmax, and masks | CPU/M4 | Attention input pipeline |
+| 07 | MHA and GQA | CPU/M4 | Pure PyTorch attention |
+| 08 | RoPE, RMSNorm, and SwiGLU | CPU/M4 | Three core operators |
+| 09 | Decoder block and sampling | CPU/M4 | One decoder layer |
+| 10 | Naive decoding and a toy KV cache | CPU/M4 | Cache comparison |
+| 11 | MLX and the Tiny-LLM environment | M4 | Qwen3-0.6B baseline |
 | 12 | Tiny-LLM attention | M4 | Week 1 attention |
-| 13 | Tiny-LLM RoPE 与 GQA | M4 | 位置和 head 对齐 |
-| 14 | Tiny-LLM RMSNorm 与 MLP | M4 | Transformer block 组件 |
-| 15 | Qwen3 block 与完整模型 | M4 | 模型前向 |
-| 16 | 权重加载、generation、Week 1 验收 | M4 | 可读版推理器 |
-| 17 | Dense KV cache | M4 | cache 正确性对照 |
-| 18 | 同步 benchmark 与 roofline | M4 | prefill/decode 报告 |
-| 19 | Metal 执行模型与 reduction | M4 | Metal 入门实验 |
-| 20 | Fused RMSNorm 或 SwiGLU | M4 | 一个自写 Metal kernel |
-| 21 | W4A16/Decode attention 阅读与 off-ramp | M4 | 算子取舍记录 |
-| 22 | Tiny-LLM Week 2 集成与验收 | M4 | 单请求优化报告 |
-| 23 | Continuous batching | M4 | 多请求时间线 |
-| 24 | Chunked prefill 与公平性 | M4 | 调度 trace |
-| 25 | Paged KV allocator | M4/CPU | BlockManager 测试 |
-| 26 | Direct paged attention | M4 | dense/paged 对照 |
-| 27 | Paged prefill 与系统测量 | M4 | serving 指标报告 |
-| 28 | Tiny-LLM Week 3 验收 | M4 | mini serving engine |
-| 29 | 环境锁定、测试和仓库规范 | CPU Linux | 可复现入口 |
-| 30 | OpenAI-like API 与异步执行 | CPU Linux | 本地 API |
-| 31 | Load generator 与指标 | CPU Linux | 固定 workload 压测 |
-| 32 | 实验报告与 NVIDIA 入场检查 | CPU/NVIDIA | GPU readiness 报告 |
-| 33 | CUDA 执行模型与 vector add | NVIDIA | 第一个 CUDA kernel |
-| 34 | 合并访存、shared memory、reduction | NVIDIA | reduction 对照 |
-| 35 | Tiled matmul 与 RMSNorm | NVIDIA | 两类 kernel 实验 |
-| 36 | Nsight、sanitizer 与 Metal 映射 | NVIDIA | CUDA 阶段报告 |
-| 37 | Triton program、block、mask | NVIDIA | Triton vector add |
-| 38 | Fused softmax 与 RMSNorm | NVIDIA | reduction kernel |
-| 39 | Matmul、autotune 与 shape dispatch | NVIDIA | 多 shape benchmark |
-| 40 | Fused attention 与模型接入 | NVIDIA | Triton 集成报告 |
-| 41 | Nano-vLLM 运行与模型层 | NVIDIA | Qwen3-0.6B eager baseline |
-| 42 | Sequence、BlockManager、Scheduler | NVIDIA | 状态机 trace |
-| 43 | ModelRunner、KV scatter、attention | NVIDIA | 请求调用链 |
-| 44 | Prefix cache、CUDA Graph、preemption | NVIDIA | Nano-vLLM 实验报告 |
-| 45 | vLLM offline 与 API server | NVIDIA | 两种入口 baseline |
-| 46 | EngineCore、Worker、ModelRunner | NVIDIA | 一条请求架构图 |
-| 47 | 调度、KV、并发度与 SLO | NVIDIA | 参数 sweep |
-| 48 | Nano-vLLM 与 vLLM 对照 | NVIDIA | 公平比较报告 |
-| 49 | 毕业项目提案与 baseline | 全部 | 实验设计文档 |
-| 50 | 实现、测试与 instrumentation | 全部 | 可测功能 |
-| 51 | 实验矩阵、消融与失败分析 | NVIDIA | 原始结果和结论 |
-| 52 | 报告、演示与复现验收 | 全部 | 完整毕业项目 |
+| 13 | Tiny-LLM RoPE and GQA | M4 | Position and head alignment |
+| 14 | Tiny-LLM RMSNorm and MLP | M4 | Transformer block components |
+| 15 | Qwen3 block and complete model | M4 | Model forward pass |
+| 16 | Weight loading, generation, and Week 1 review | M4 | Readable inference engine |
+| 17 | Dense KV cache | M4 | Cache correctness comparison |
+| 18 | Synchronized benchmarks and roofline analysis | M4 | Prefill/decode report |
+| 19 | Metal execution model and reductions | M4 | Introductory Metal lab |
+| 20 | Fused RMSNorm or SwiGLU | M4 | One custom Metal kernel |
+| 21 | W4A16/decode attention study and operator off-ramp | M4 | Operator trade-off record |
+| 22 | Tiny-LLM Week 2 integration and review | M4 | Single-request optimization report |
+| 23 | Continuous batching | M4 | Multi-request timeline |
+| 24 | Chunked prefill and fairness | M4 | Scheduling trace |
+| 25 | Paged KV allocator | M4/CPU | BlockManager tests |
+| 26 | Direct paged attention | M4 | Dense/paged comparison |
+| 27 | Paged prefill and system measurement | M4 | Serving metrics report |
+| 28 | Tiny-LLM Week 3 review | M4 | Mini serving engine |
+| 29 | Environment locking, tests, and repository conventions | CPU Linux | Reproducible entry point |
+| 30 | OpenAI-like API and asynchronous execution | CPU Linux | Local API |
+| 31 | Load generator and metrics | CPU Linux | Fixed-workload load test |
+| 32 | Experiment reporting and NVIDIA readiness | CPU/NVIDIA | GPU readiness report |
+| 33 | CUDA execution model and vector addition | NVIDIA | First CUDA kernel |
+| 34 | Coalesced access, shared memory, and reductions | NVIDIA | Reduction comparison |
+| 35 | Tiled matrix multiplication and RMSNorm | NVIDIA | Two kernel labs |
+| 36 | Nsight, sanitizers, and Metal mapping | NVIDIA | CUDA phase report |
+| 37 | Triton programs, blocks, and masks | NVIDIA | Triton vector addition |
+| 38 | Fused softmax and RMSNorm | NVIDIA | Reduction kernels |
+| 39 | Matrix multiplication, autotuning, and shape dispatch | NVIDIA | Multi-shape benchmark |
+| 40 | Fused attention and model integration | NVIDIA | Triton integration report |
+| 41 | Running Nano-vLLM and reading model layers | NVIDIA | Qwen3-0.6B eager baseline |
+| 42 | Sequence, BlockManager, and Scheduler | NVIDIA | State-machine trace |
+| 43 | ModelRunner, KV scatter, and attention | NVIDIA | Request call chain |
+| 44 | Prefix cache, CUDA Graphs, and preemption | NVIDIA | Nano-vLLM experiment report |
+| 45 | vLLM offline inference and API server | NVIDIA | Two entry-point baselines |
+| 46 | EngineCore, Worker, and ModelRunner | NVIDIA | One-request architecture diagram |
+| 47 | Scheduling, KV cache, concurrency, and SLOs | NVIDIA | Parameter sweep |
+| 48 | Nano-vLLM and vLLM comparison | NVIDIA | Fair comparison report |
+| 49 | Capstone proposal and baseline | All | Experiment design |
+| 50 | Implementation, tests, and instrumentation | All | Measurable feature |
+| 51 | Experiment matrix, ablations, and failure analysis | NVIDIA | Raw results and conclusions |
+| 52 | Report, demo, and reproducibility review | All | Complete capstone |
 
-## 可选专题
+## Optional topics
 
-完成主线后只选择一个深入：完整 Tiny-LLM Metal Week 2、tensor parallel、speculative decoding、MoE、prefix-aware scheduling 或 vLLM 源码贡献。
+After the main path, choose only one topic to explore deeply: the complete Tiny-LLM Metal Week 2, tensor parallelism, speculative decoding, MoE, prefix-aware scheduling, or a vLLM contribution.
 

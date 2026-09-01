@@ -6,29 +6,29 @@ estimated_hours: 8
 status: planned
 ---
 
-# Week 43：ModelRunner、KV scatter 与 attention
+# Week 43: ModelRunner, KV Scatter, and Attention
 
-## 本周目标
+## Goals
 
-- 追踪 batch metadata 到 kernel。
-- 区分 prefill/decode attention 路径。
+- Trace batch metadata into kernels.
+- Distinguish prefill and decode attention.
 
-## 实验
+## Lab
 
-沿一条请求记录 slot mapping、KV store、FlashAttention 和 sampler。
+Follow one request through slots, KV storage, attention, and sampling.
 
-## 交付物
+## Deliverables
 
-- 完整请求调用链。
+- A complete request call chain.
 
-## 验收标准
+## Acceptance criteria
 
-- [ ] 能指出 PyTorch/Triton/FlashAttention 分工。
-- [ ] trace 可关联 sequence 与物理 slot。
+- [ ] Identify PyTorch, Triton, and FlashAttention roles.
+- [ ] Link sequences to physical slots.
 
-## 复盘
+## Retrospective
 
-- 实际投入：
-- 最大困难：
-- 尚未解决：
+- Actual time spent:
+- Biggest difficulty:
+- Unresolved questions:
 

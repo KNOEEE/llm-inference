@@ -6,29 +6,29 @@ estimated_hours: 8
 status: planned
 ---
 
-# Week 34：合并访存、shared memory 与 reduction
+# Week 34: Coalesced Access, Shared Memory, and Reductions
 
-## 本周目标
+## Goals
 
-- 理解 global/shared/register memory。
-- 观察 coalescing 和同步。
+- Understand global, shared, and register memory.
+- Observe coalescing and synchronization.
 
-## 实验
+## Lab
 
-实现 naive 与优化 reduction，比较访问模式。
+Implement naive and optimized reductions.
 
-## 交付物
+## Deliverables
 
-- reduction 对照报告。
+- A reduction comparison report.
 
-## 验收标准
+## Acceptance criteria
 
-- [ ] 能用 profiler 解释差异。
-- [ ] 覆盖非 2 次幂长度。
+- [ ] Explain results with profiler evidence.
+- [ ] Cover non-power-of-two lengths.
 
-## 复盘
+## Retrospective
 
-- 实际投入：
-- 最大困难：
-- 尚未解决：
+- Actual time spent:
+- Biggest difficulty:
+- Unresolved questions:
 

@@ -6,29 +6,29 @@ estimated_hours: 8
 status: planned
 ---
 
-# Week 46：EngineCore、Worker 与 ModelRunner
+# Week 46: EngineCore, Worker, and ModelRunner
 
-## 本周目标
+## Goals
 
-- 从 API server 追踪到 GPU worker。
-- 将 Nano-vLLM 概念映射到生产组件。
+- Trace a request from API server to GPU worker.
+- Map Nano-vLLM concepts to production components.
 
-## 实验
+## Lab
 
-画出一条请求经过 scheduler、KV manager、worker 和 model runner 的路径。
+Diagram scheduler, KV manager, worker, and model runner.
 
-## 交付物
+## Deliverables
 
-- vLLM 请求架构图。
+- A vLLM request architecture diagram.
 
-## 验收标准
+## Acceptance criteria
 
-- [ ] 每个组件职责清楚。
-- [ ] 能解释多进程边界。
+- [ ] State each component responsibility.
+- [ ] Explain process boundaries.
 
-## 复盘
+## Retrospective
 
-- 实际投入：
-- 最大困难：
-- 尚未解决：
+- Actual time spent:
+- Biggest difficulty:
+- Unresolved questions:
 

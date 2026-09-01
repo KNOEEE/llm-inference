@@ -6,29 +6,29 @@ estimated_hours: 8
 status: planned
 ---
 
-# Week 09：Decoder block 与采样
+# Week 09: Decoder Block and Sampling
 
-## 本周目标
+## Goals
 
-- 拼接完整 decoder block。
-- 理解 greedy、temperature 和 top-p。
+- Assemble a complete decoder block.
+- Understand greedy, temperature, and top-p sampling.
 
-## 实验
+## Lab
 
-实现一层 decoder-only 模型和确定性 greedy generation。
+Implement a one-layer decoder-only model and deterministic greedy generation.
 
-## 交付物
+## Deliverables
 
-- toy decoder 与采样器。
+- A toy decoder and sampler.
 
-## 验收标准
+## Acceptance criteria
 
-- [ ] 固定 seed 结果可复现。
-- [ ] 能标注所有中间 shape。
+- [ ] Reproduce results with a fixed seed.
+- [ ] Annotate every intermediate shape.
 
-## 复盘
+## Retrospective
 
-- 实际投入：
-- 最大困难：
-- 尚未解决：
+- Actual time spent:
+- Biggest difficulty:
+- Unresolved questions:
 

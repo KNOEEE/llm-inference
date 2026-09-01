@@ -1,8 +1,8 @@
 # Toy Transformer
 
-从 W06 开始演进的纯 PyTorch decoder-only 模型。
+A pure PyTorch decoder-only model that evolves from W06 onward.
 
-建议结构：
+Suggested structure:
 
 ```text
 src/
@@ -11,5 +11,5 @@ benchmarks/
 README.md
 ```
 
-最初只实现 FP32 CPU；通过 shape 和数值测试后再考虑 MPS/BF16。W10 应支持 naive decode 与 KV-cache decode 的确定性对照。
+Start with FP32 CPU only. Add MPS or BF16 only after shape and numerical tests pass. By W10, support a deterministic comparison between naive decoding and KV-cache decoding.
 

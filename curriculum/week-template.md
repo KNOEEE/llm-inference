@@ -6,33 +6,33 @@ estimated_hours: 8
 status: planned
 ---
 
-# Week 00：主题
+# Week 00: Topic
 
-## 本周目标
+## Goals
 
-- 目标一。
-- 目标二。
+- First goal.
+- Second goal.
 
-## 阅读与准备
+## Reading and preparation
 
-- 阅读材料或前置代码。
+- Reading material or prerequisite code.
 
-## 实验
+## Lab
 
-1. 实验步骤。
+1. Lab step.
 
-## 交付物
+## Deliverables
 
-- 代码、测试、图或报告。
+- Code, tests, diagrams, or a report.
 
-## 验收标准
+## Acceptance criteria
 
-- [ ] 可以独立解释核心概念。
-- [ ] 正确性测试通过。
+- [ ] Explain the core concept independently.
+- [ ] Pass the correctness tests.
 
-## 复盘
+## Retrospective
 
-- 实际投入：
-- 最大困难：
-- 尚未解决：
+- Actual time spent:
+- Biggest difficulty:
+- Unresolved questions:
 

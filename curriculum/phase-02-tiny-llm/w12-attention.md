@@ -6,29 +6,29 @@ estimated_hours: 8
 status: planned
 ---
 
-# Week 12：Tiny-LLM attention
+# Week 12: Tiny-LLM Attention
 
-## 本周目标
+## Goals
 
-- 按课程接口实现 attention。
-- 将 PyTorch shape 经验迁移到 MLX。
+- Implement attention through course interfaces.
+- Transfer PyTorch shape reasoning to MLX.
 
-## 实验
+## Lab
 
-完成 Week 1 attention 练习并与参考实现比较。
+Complete the Week 1 attention exercise and compare with the reference.
 
-## 交付物
+## Deliverables
 
-- Tiny-LLM attention 实现。
+- A Tiny-LLM attention implementation.
 
-## 验收标准
+## Acceptance criteria
 
-- [ ] 课程测试通过。
-- [ ] 能解释 lazy graph 对调试的影响。
+- [ ] Pass course tests.
+- [ ] Explain how lazy graphs affect debugging.
 
-## 复盘
+## Retrospective
 
-- 实际投入：
-- 最大困难：
-- 尚未解决：
+- Actual time spent:
+- Biggest difficulty:
+- Unresolved questions:
 

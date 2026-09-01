@@ -1,4 +1,4 @@
 # Retrospectives
 
-记录时间估计、最有效的实验、反复出现的误区，以及下一阶段需要改变的学习方式。
+Record estimation accuracy, the most effective experiments, recurring mistakes, and changes to make in the next phase.
 

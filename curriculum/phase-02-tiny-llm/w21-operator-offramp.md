@@ -6,29 +6,29 @@ estimated_hours: 8
 status: planned
 ---
 
-# Week 21：W4A16、Decode Attention 与 operator off-ramp
+# Week 21: W4A16, Decode Attention, and the Operator Off-ramp
 
-## 本周目标
+## Goals
 
-- 理解量化 matvec 和 online softmax 思想。
-- 决定哪些 kernel 深挖、哪些使用官方替代路径。
+- Understand quantized matvec and online softmax.
+- Choose implementation versus official substitute paths.
 
-## 实验
+## Lab
 
-阅读参考实现，跑 microbenchmark，并记录成本/收益决策。
+Read references, run microbenchmarks, and document the trade-off.
 
-## 交付物
+## Deliverables
 
-- Week 2 算子取舍文档。
+- A Week 2 operator decision record.
 
-## 验收标准
+## Acceptance criteria
 
-- [ ] 清楚区分接口保留与完整 MLX model 旁路。
-- [ ] 选择有明确理由。
+- [ ] Distinguish substitutes from the full MLX-model bypass.
+- [ ] Justify every selection.
 
-## 复盘
+## Retrospective
 
-- 实际投入：
-- 最大困难：
-- 尚未解决：
+- Actual time spent:
+- Biggest difficulty:
+- Unresolved questions:
 

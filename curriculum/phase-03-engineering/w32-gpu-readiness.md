@@ -6,29 +6,29 @@ estimated_hours: 8
 status: planned
 ---
 
-# Week 32：实验报告与 NVIDIA 入场检查
+# Week 32: Experiment Reporting and NVIDIA Readiness
 
-## 本周目标
+## Goals
 
-- 完成系统信息采集。
-- 验证 CUDA/Triton/FlashAttention 最小路径。
+- Collect system metadata.
+- Validate minimal CUDA, Triton, and FlashAttention paths.
 
-## 实验
+## Lab
 
-记录 GPU、driver、CUDA、PyTorch、Triton 和 commit；运行 vector add smoke test。
+Record GPU software and run a vector-add smoke test.
 
-## 交付物
+## Deliverables
 
-- GPU readiness 报告。
+- A GPU readiness report.
 
-## 验收标准
+## Acceptance criteria
 
-- [ ] `torch.cuda.is_available()` 为真。
-- [ ] 失败时有明确诊断而非跳过。
+- [ ] Confirm torch.cuda.is_available is true.
+- [ ] Diagnose failures explicitly.
 
-## 复盘
+## Retrospective
 
-- 实际投入：
-- 最大困难：
-- 尚未解决：
+- Actual time spent:
+- Biggest difficulty:
+- Unresolved questions:
 

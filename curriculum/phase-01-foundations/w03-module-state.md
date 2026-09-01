@@ -6,29 +6,29 @@ estimated_hours: 8
 status: planned
 ---
 
-# Week 03：Module、Parameter 与 state_dict
+# Week 03: Modules, Parameters, and State Dictionaries
 
-## 本周目标
+## Goals
 
-- 理解 `nn.Module` 的参数注册。
-- 掌握保存、加载和 inference mode。
+- Understand parameter registration in nn.Module.
+- Learn saving, loading, and inference mode.
 
-## 实验
+## Lab
 
-实现一个含 Linear、buffer 和子模块的小模型，并保存后恢复。
+Build a module with a linear layer, buffer, and submodule, then save and restore it.
 
-## 交付物
+## Deliverables
 
-- 可保存加载的小模型。
+- A saveable and loadable model.
 
-## 验收标准
+## Acceptance criteria
 
-- [ ] state_dict 往返后输出一致。
-- [ ] 能解释 Parameter 与 buffer 的差异。
+- [ ] Produce identical output after a state-dictionary round trip.
+- [ ] Explain Parameters versus buffers.
 
-## 复盘
+## Retrospective
 
-- 实际投入：
-- 最大困难：
-- 尚未解决：
+- Actual time spent:
+- Biggest difficulty:
+- Unresolved questions:
 

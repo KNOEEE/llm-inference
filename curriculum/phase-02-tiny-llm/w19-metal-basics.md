@@ -6,29 +6,29 @@ estimated_hours: 8
 status: planned
 ---
 
-# Week 19：Metal 执行模型与 reduction
+# Week 19: Metal Execution Model and Reductions
 
-## 本周目标
+## Goals
 
-- 理解 grid、threadgroup、SIMD-group 和内存层级。
-- 完成最小 reduction kernel。
+- Understand grids, threadgroups, SIMD-groups, and memory hierarchy.
+- Complete a minimal reduction kernel.
 
-## 实验
+## Lab
 
-用 MLX extension 或课程接口实现一个正确性优先的 Metal reduction。
+Implement a correctness-first Metal reduction through the course interface.
 
-## 交付物
+## Deliverables
 
-- Metal 入门 kernel。
+- An introductory Metal kernel.
 
-## 验收标准
+## Acceptance criteria
 
-- [ ] 边界长度正确。
-- [ ] 能写出 Metal 到 CUDA 的概念映射。
+- [ ] Handle boundary lengths correctly.
+- [ ] Map Metal concepts to CUDA.
 
-## 复盘
+## Retrospective
 
-- 实际投入：
-- 最大困难：
-- 尚未解决：
+- Actual time spent:
+- Biggest difficulty:
+- Unresolved questions:
 

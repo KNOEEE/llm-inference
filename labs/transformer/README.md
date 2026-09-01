@@ -1,6 +1,6 @@
 # Transformer Labs
 
-对应 W06–W10。核心练习包括 stable softmax、causal mask、MHA/GQA、RoPE、RMSNorm、SwiGLU、decoder block 和 KV cache toy。
+These labs correspond to W06-W10. Core exercises include stable softmax, causal masking, MHA/GQA, RoPE, RMSNorm, SwiGLU, a decoder block, and a toy KV cache.
 
-禁止直接使用 `nn.Transformer` 替代实现；可以在完成后把成熟实现迁移到 `projects/toy-transformer/`。
+Do not replace the implementation with `nn.Transformer`. Once the work is stable, move it into `projects/toy-transformer/`.
 

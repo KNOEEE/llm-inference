@@ -6,29 +6,29 @@ estimated_hours: 8
 status: planned
 ---
 
-# Week 30：OpenAI-like API 与异步执行
+# Week 30: OpenAI-like API and Asynchronous Execution
 
-## 本周目标
+## Goals
 
-- 理解同步生成、流式输出和请求取消。
-- 建立最小服务边界。
+- Understand synchronous, streaming, and cancellation paths.
+- Define a minimal service boundary.
 
-## 实验
+## Lab
 
-用 scripted model 实现本地 API，不依赖 GPU 性能。
+Implement a local API with a scripted model.
 
-## 交付物
+## Deliverables
 
-- 可测试的本地 API。
+- A testable local API.
 
-## 验收标准
+## Acceptance criteria
 
-- [ ] 支持并发和错误返回。
-- [ ] 取消请求不泄漏状态。
+- [ ] Support concurrency and explicit errors.
+- [ ] Cancel without leaking state.
 
-## 复盘
+## Retrospective
 
-- 实际投入：
-- 最大困难：
-- 尚未解决：
+- Actual time spent:
+- Biggest difficulty:
+- Unresolved questions:
 

@@ -1,6 +1,6 @@
 # Qwen Inference
 
-此目录保存本课程围绕 Tiny-LLM/Qwen3 的适配代码、实验入口和报告，不复制 Tiny-LLM 上游源码。
+This directory stores course adapters, experiment entry points, and reports around Tiny-LLM/Qwen3. It does not copy the Tiny-LLM upstream source.
 
-实际课程实现放在独立的 Tiny-LLM fork 中；本目录记录调用脚本、固定 prompt、对照结果和必要 patch。
+Keep the actual course implementation in a dedicated Tiny-LLM fork. Store invocation scripts, fixed prompts, comparison results, and required patches here.
 

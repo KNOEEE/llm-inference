@@ -6,29 +6,29 @@ estimated_hours: 8
 status: planned
 ---
 
-# Week 29：环境锁定、测试和仓库规范
+# Week 29: Environment Locking, Tests, and Repository Conventions
 
-## 本周目标
+## Goals
 
-- 拆分 CPU、Mac、CUDA、Nano-vLLM、vLLM 环境。
-- 建立一键正确性入口。
+- Separate CPU, Mac, CUDA, Nano-vLLM, and vLLM environments.
+- Create one-command correctness entry points.
 
-## 实验
+## Lab
 
-记录版本和 commit，统一测试标记与结果目录。
+Record versions and commits and standardize tests and results.
 
-## 交付物
+## Deliverables
 
-- 环境说明和测试入口。
+- Environment documentation and test entry points.
 
-## 验收标准
+## Acceptance criteria
 
-- [ ] 新 shell 可复现实验。
-- [ ] 大文件未进入 Git。
+- [ ] Reproduce from a new shell.
+- [ ] Keep large files out of Git.
 
-## 复盘
+## Retrospective
 
-- 实际投入：
-- 最大困难：
-- 尚未解决：
+- Actual time spent:
+- Biggest difficulty:
+- Unresolved questions:
 

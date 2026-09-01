@@ -6,29 +6,29 @@ estimated_hours: 8
 status: planned
 ---
 
-# Week 20：Fused RMSNorm 或 SwiGLU
+# Week 20: Fused RMSNorm or SwiGLU
 
-## 本周目标
+## Goals
 
-- 亲手完成一个有代表性的融合 kernel。
-- 建立 oracle→microbench→end-to-end 流程。
+- Complete one representative fused kernel.
+- Establish an oracle-to-end-to-end workflow.
 
-## 实验
+## Lab
 
-从 RMSNorm 或 SwiGLU 中选一个实现、测试并接入模型。
+Choose one operator, implement it, test it, and integrate it.
 
-## 交付物
+## Deliverables
 
-- 一个自写 Metal fused op。
+- One custom Metal fused operator.
 
-## 验收标准
+## Acceptance criteria
 
-- [ ] 随机和尾部 shape 通过。
-- [ ] 完整模型无正确性回退。
+- [ ] Pass random and tail-shape tests.
+- [ ] Preserve full-model correctness.
 
-## 复盘
+## Retrospective
 
-- 实际投入：
-- 最大困难：
-- 尚未解决：
+- Actual time spent:
+- Biggest difficulty:
+- Unresolved questions:
 

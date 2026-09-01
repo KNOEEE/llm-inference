@@ -1,4 +1,4 @@
 # Debugging Notes
 
-使用统一格式：现象 → 最小复现 → 假设 → 观测 → 根因 → 修复 → 回归测试。
+Use one format consistently: symptom, minimal reproduction, hypotheses, observations, root cause, fix, and regression test.
 

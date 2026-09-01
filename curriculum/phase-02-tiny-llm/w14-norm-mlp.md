@@ -6,29 +6,29 @@ estimated_hours: 8
 status: planned
 ---
 
-# Week 14：Tiny-LLM RMSNorm 与 MLP
+# Week 14: Tiny-LLM RMSNorm and MLP
 
-## 本周目标
+## Goals
 
-- 完成 normalization 和 SwiGLU MLP。
-- 理解算子融合机会。
+- Complete normalization and the SwiGLU MLP.
+- Identify fusion opportunities.
 
-## 实验
+## Lab
 
-实现组件并记录中间输出，准备之后的 Metal oracle。
+Implement components and record intermediate outputs for a Metal oracle.
 
-## 交付物
+## Deliverables
 
-- RMSNorm/MLP 组件。
+- RMSNorm and MLP components.
 
-## 验收标准
+## Acceptance criteria
 
-- [ ] 逐算子结果对齐。
-- [ ] 明确一个候选融合算子。
+- [ ] Match results operator by operator.
+- [ ] Select one candidate fused operator.
 
-## 复盘
+## Retrospective
 
-- 实际投入：
-- 最大困难：
-- 尚未解决：
+- Actual time spent:
+- Biggest difficulty:
+- Unresolved questions:
 

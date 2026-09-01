@@ -6,29 +6,29 @@ estimated_hours: 8
 status: planned
 ---
 
-# Week 48：Nano-vLLM 与 vLLM 对照
+# Week 48: Nano-vLLM and vLLM Comparison
 
-## 本周目标
+## Goals
 
-- 建立公平 workload。
-- 解释教学实现与生产实现的复杂度差异。
+- Build a fair workload.
+- Explain teaching versus production complexity.
 
-## 实验
+## Lab
 
-运行短短、长 prefill、混合和共享前缀四类 workload。
+Run short, long-prefill, mixed, and shared-prefix workloads.
 
-## 交付物
+## Deliverables
 
-- Nano-vLLM/vLLM 对照报告。
+- A Nano-vLLM versus vLLM report.
 
-## 验收标准
+## Acceptance criteria
 
-- [ ] 模型、tokenizer、prompt 和采样一致。
-- [ ] 差异归因到调度/cache/kernel/编译层。
+- [ ] Keep model and sampling identical.
+- [ ] Attribute differences by system layer.
 
-## 复盘
+## Retrospective
 
-- 实际投入：
-- 最大困难：
-- 尚未解决：
+- Actual time spent:
+- Biggest difficulty:
+- Unresolved questions:
 

@@ -1,6 +1,6 @@
 # Triton Labs
 
-对应 W37–W40。建议顺序：vector add → fused softmax → RMSNorm → matmul → fused attention。
+These labs correspond to W37-W40. Suggested order: vector addition, fused softmax, RMSNorm, matrix multiplication, and fused attention.
 
-记录首次 JIT 与稳态延迟，覆盖尾块、非 2 次幂和异常 stride；不能只保留最快的 shape。
+Report first-time JIT separately from steady-state latency, and cover tail blocks, non-power-of-two sizes, and unusual strides. Do not keep only the fastest shapes.
 

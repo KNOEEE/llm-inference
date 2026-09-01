@@ -6,29 +6,29 @@ estimated_hours: 8
 status: planned
 ---
 
-# Week 18：同步 benchmark 与 roofline
+# Week 18: Synchronized Benchmarks and Roofline Analysis
 
-## 本周目标
+## Goals
 
-- 正确测量 MLX lazy graph。
-- 区分 prefill compute-bound 与 decode bandwidth-bound。
+- Measure MLX lazy graphs correctly.
+- Distinguish compute-bound prefill from bandwidth-bound decode.
 
-## 实验
+## Lab
 
-固定 warmup、同步、shape、dtype，分别测 prefill 和 decode。
+Fix warmup, synchronization, shape, and dtype, then measure both phases.
 
-## 交付物
+## Deliverables
 
-- Week 2 benchmark 报告。
+- A Week 2 benchmark report.
 
-## 验收标准
+## Acceptance criteria
 
-- [ ] 报告 median 和样本数。
-- [ ] 瓶颈判断有数据依据。
+- [ ] Report medians and sample counts.
+- [ ] Support bottleneck conclusions with data.
 
-## 复盘
+## Retrospective
 
-- 实际投入：
-- 最大困难：
-- 尚未解决：
+- Actual time spent:
+- Biggest difficulty:
+- Unresolved questions:
 

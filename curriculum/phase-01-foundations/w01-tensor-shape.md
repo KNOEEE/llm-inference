@@ -6,29 +6,29 @@ estimated_hours: 8
 status: planned
 ---
 
-# Week 01：Tensor、shape、dtype 与 device
+# Week 01: Tensors, Shapes, Dtypes, and Devices
 
-## 本周目标
+## Goals
 
-- 掌握 Tensor 创建、维度、dtype 和 device。
-- 建立逐层记录 shape 的习惯。
+- Learn tensor creation, dimensions, dtypes, and devices.
+- Build the habit of recording shapes layer by layer.
 
-## 实验
+## Lab
 
-比较 NumPy、CPU Tensor 和 MPS Tensor 的创建与转换，记录常见错误。
+Compare NumPy arrays, CPU tensors, and MPS tensors, and record conversion and device errors.
 
-## 交付物
+## Deliverables
 
-- `labs/pytorch/tensor-basics` 实验和 shape 笔记。
+- A tensor-basics lab and shape note.
 
-## 验收标准
+## Acceptance criteria
 
-- [ ] 能手算简单矩阵运算的输出 shape。
-- [ ] 能解释 dtype/device mismatch。
+- [ ] Derive simple matrix-operation shapes by hand.
+- [ ] Explain dtype and device mismatches.
 
-## 复盘
+## Retrospective
 
-- 实际投入：
-- 最大困难：
-- 尚未解决：
+- Actual time spent:
+- Biggest difficulty:
+- Unresolved questions:
 

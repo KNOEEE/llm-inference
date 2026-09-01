@@ -6,29 +6,29 @@ estimated_hours: 8
 status: planned
 ---
 
-# Week 52：报告、演示与复现验收
+# Week 52: Report, Demo, and Reproducibility Review
 
-## 本周目标
+## Goals
 
-- 整理架构、方法、结果和限制。
-- 验证全新环境复现路径。
+- Organize architecture, method, results, and limitations.
+- Verify reproduction in a clean environment.
 
-## 实验
+## Lab
 
-完成 README、5–10 分钟 demo、复现脚本和后续问题列表。
+Complete README, demo, reproduction scripts, and follow-up questions.
 
-## 交付物
+## Deliverables
 
-- 完整毕业项目。
+- A complete capstone project.
 
-## 验收标准
+## Acceptance criteria
 
-- [ ] 新环境按文档可复现。
-- [ ] 明确成功、失败和未解决问题。
+- [ ] Reproduce from documentation.
+- [ ] State successes, failures, and unresolved issues.
 
-## 复盘
+## Retrospective
 
-- 实际投入：
-- 最大困难：
-- 尚未解决：
+- Actual time spent:
+- Biggest difficulty:
+- Unresolved questions:
 

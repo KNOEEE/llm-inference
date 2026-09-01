@@ -1,4 +1,4 @@
 # Benchmark Runners
 
-这里放统一 workload 的 backend adapter。Runner 只负责加载请求、计时和输出 schema，不在其中偷偷改变模型、采样或调度配置。
+Store backend adapters for the shared workloads here. A runner may load requests, measure timings, and emit the result schema, but it must not silently change model, sampling, or scheduling configuration.
 

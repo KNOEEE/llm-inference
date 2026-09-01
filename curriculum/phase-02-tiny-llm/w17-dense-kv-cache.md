@@ -6,29 +6,29 @@ estimated_hours: 8
 status: planned
 ---
 
-# Week 17：Dense KV cache
+# Week 17: Dense KV Cache
 
-## 本周目标
+## Goals
 
-- 让每层 cache 归属于请求。
-- 正确处理 position 与 append。
+- Make every layer cache request-owned.
+- Handle positions and appends correctly.
 
-## 实验
+## Lab
 
-实现 cache 并在多个 prompt/output 长度下比较开关结果。
+Compare cache-on and cache-off results across prompt and output lengths.
 
-## 交付物
+## Deliverables
 
-- dense KV cache 实现。
+- A dense KV-cache implementation.
 
-## 验收标准
+## Acceptance criteria
 
-- [ ] cache 前后 greedy 输出一致。
-- [ ] decode 不再重算旧 K/V。
+- [ ] Produce identical greedy output.
+- [ ] Stop recomputing old K/V during decode.
 
-## 复盘
+## Retrospective
 
-- 实际投入：
-- 最大困难：
-- 尚未解决：
+- Actual time spent:
+- Biggest difficulty:
+- Unresolved questions:
 

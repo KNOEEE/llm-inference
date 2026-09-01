@@ -1,19 +1,19 @@
 # Benchmark Protocol
 
-性能结果必须同时具备正确性和可复现性。
+Performance results must be both correct and reproducible.
 
-## 必记字段
+## Required metadata
 
-- 仓库 commit、依赖版本、设备与驱动；
-- 模型、权重格式、dtype、采样参数；
-- prompt/output 长度、batch/concurrency；
-- warmup、同步方式、样本数；
-- TTFT、TPOT、吞吐、p50/p95、显存和失败率。
+- repository commit, dependency versions, device, and driver;
+- model, weight format, dtype, and sampling parameters;
+- prompt/output length and batch size/concurrency;
+- warmup procedure, synchronization method, and sample count;
+- TTFT, TPOT, throughput, p50/p95, memory usage, and error rate.
 
-## 约束
+## Constraints
 
-- 不比较不同权重格式后的逐 token bit equality。
-- 不把首次编译时间混入稳态 kernel latency。
-- 不用 Mac 与 NVIDIA 的绝对吞吐判断后端优劣。
-- 原始结果遵循 `schemas/result.schema.json`；大文件进入 `artifacts/`。
+- Do not require token-by-token bit equality across different weight formats.
+- Do not include first-time compilation in steady-state kernel latency.
+- Do not use absolute Mac-versus-NVIDIA throughput to rank backends.
+- Raw results must follow `schemas/result.schema.json`; large files belong under `artifacts/`.
 

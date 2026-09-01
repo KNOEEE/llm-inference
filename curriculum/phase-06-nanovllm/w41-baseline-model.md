@@ -6,29 +6,29 @@ estimated_hours: 8
 status: planned
 ---
 
-# Week 41：Nano-vLLM 运行与模型层
+# Week 41: Running Nano-vLLM and Reading Model Layers
 
-## 本周目标
+## Goals
 
-- 以 eager、TP=1 运行 Qwen3-0.6B。
-- 阅读 Qwen3 和基础 layer。
+- Run Qwen3-0.6B with eager mode and TP=1.
+- Read Qwen3 and base layers.
 
-## 实验
+## Lab
 
-复现 quickstart，记录模型加载和单请求 prefill/decode。
+Reproduce quickstart and record prefill and decode.
 
-## 交付物
+## Deliverables
 
-- Nano-vLLM eager baseline。
+- A Nano-vLLM eager baseline.
 
-## 验收标准
+## Acceptance criteria
 
-- [ ] 不先开启 CUDA Graph/TP。
-- [ ] 能解释模型层调用。
+- [ ] Do not start with CUDA Graphs or TP.
+- [ ] Explain the model-layer call path.
 
-## 复盘
+## Retrospective
 
-- 实际投入：
-- 最大困难：
-- 尚未解决：
+- Actual time spent:
+- Biggest difficulty:
+- Unresolved questions:
 

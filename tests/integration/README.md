@@ -1,4 +1,4 @@
 # Integration Tests
 
-端到端测试模型加载、generation、API、流式输出和 backend adapter。需要 GPU 的测试必须使用 marker。
+Test model loading, generation, APIs, streaming output, and backend adapters end to end. GPU-dependent tests must use an explicit marker.
 

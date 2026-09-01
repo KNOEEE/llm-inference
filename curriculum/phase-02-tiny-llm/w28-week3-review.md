@@ -6,29 +6,29 @@ estimated_hours: 8
 status: planned
 ---
 
-# Week 28：Tiny-LLM Week 3 验收
+# Week 28: Tiny-LLM Week 3 Review
 
-## 本周目标
+## Goals
 
-- 串联 scheduler、cache、attention。
-- 冻结课程 commit 和最终 trace。
+- Connect scheduler, cache, and attention.
+- Pin the course commit and final trace.
 
-## 实验
+## Lab
 
-运行多请求端到端场景并完成阶段复盘；spec decode/MoE 仅选修。
+Run a multi-request end-to-end case and retrospective.
 
-## 交付物
+## Deliverables
 
-- mini serving engine 阶段报告。
+- A mini serving-engine report.
 
-## 验收标准
+## Acceptance criteria
 
-- [ ] 能画出请求和 page 生命周期。
-- [ ] 必修路径测试通过。
+- [ ] Draw request and page lifecycles.
+- [ ] Pass all required-path tests.
 
-## 复盘
+## Retrospective
 
-- 实际投入：
-- 最大困难：
-- 尚未解决：
+- Actual time spent:
+- Biggest difficulty:
+- Unresolved questions:
 
