@@ -28,7 +28,8 @@ Build a module with a linear layer, buffer, and submodule, then save and restore
 
 ## Retrospective
 
-- Actual time spent:
-- Biggest difficulty:
+- Actual time spent: 2 days
+- Biggest difficulty: I didn't actually know what nn.Module was, nor what this course was about,
+    and I didn't understand what linear, buffer, or submodule were. I only grasped these concepts after looking at the generated examples.
 - Unresolved questions:
 
