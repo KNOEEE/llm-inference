@@ -61,14 +61,6 @@ def add_remove_sort():
     c = np.concatenate((a, b), axis=0)
     print(c)
 
-def reshape_transpose():
-    a = np.array([[1, 2, 3], [4, 5, 6]])
-    print(a)
-    b = a.reshape((3, 2))
-    print(b)
-    c = a.T
-    print(c)
-
 def add_new_axis():
     a = np.array([1, 2, 3, 4, 5, 6])
     print(a.shape)
@@ -127,4 +119,4 @@ def create_array_from_exsiting_data():
     print(y)
 
 if __name__ == "__main__":
-    create_array_from_exsiting_data()
+    reshape_transpose()
