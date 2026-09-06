@@ -1,5 +1,5 @@
 import numpy as np
-
+import torch    
 
 # Reference: https://numpy.org/doc/stable/user/absolute_beginners.html
 def array_basics():
@@ -118,5 +118,17 @@ def create_array_from_exsiting_data():
     y = np.hsplit(x, (3, 4))
     print(y)
 
+def tensor_shape():
+    a = np.array([1, 2, 3])
+    print(a.shape)
+    b = torch.tensor([1, 2, 3])
+    print(b.shape)
+    b = torch.tensor([[1, 2, 3], [4, 5, 6]])
+    print(b.shape)
+    b = torch.tensor([[1], [2]])
+    print(b.shape)
+    b = torch.tensor([[1, 2]])
+    print(b.shape)
+
 if __name__ == "__main__":
-    reshape_transpose()
+    tensor_shape()

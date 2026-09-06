@@ -12,6 +12,9 @@ from torch import nn
 torch.manual_seed(42)
 
 # Tiny dataset: y = 2*x + 3 with small noise
+# We can think X as a batch of 20 samples, each with 1 feature (hence shape (20,1))
+# but actually it is a single vector of length 20, and the model out puts a single value for each input, 
+# so the output is also shape (20,1)
 X = torch.linspace(-1, 1, steps=20).unsqueeze(1)  # (20,1)
 Y = 2.0 * X + 3.0 + 0.1 * torch.randn_like(X)
 
@@ -26,14 +29,17 @@ class TinyModel(nn.Module):
 
 def train(model, x, y, epochs=200, lr=0.1):
     opt = torch.optim.SGD(model.parameters(), lr=lr)
+    # Mean Squared Error (MSE) loss function
     loss_fn = nn.MSELoss()
     for epoch in range(1, epochs + 1):
         pred = model(x)
+        # Here loss is a scalar tensor due to each element of pred and y being a single value
+        # If pred and y were multi-dimensional, loss would still be a scalar because MSELoss averages over all elements
         loss = loss_fn(pred, y)
         opt.zero_grad()
         loss.backward()
         opt.step()
-        if epoch % (epochs // 5) == 0 or epoch == 1:
+        if epochs >= 5 and epoch % (epochs // 5) == 0 or epoch == 1:
             print(f"epoch {epoch:3d} loss={loss.item():.6f}")
     return loss.item()
 
@@ -56,40 +62,42 @@ if __name__ == "__main__":
 
     print("\nStart training")
     start = time.time()
-    final_loss = train(model, X, Y, epochs=500, lr=0.1)
+    # The model parameters will come into convergence at about 100 epochs
+    # It depends on the learning rate, the random initialization of the model parameters and sample size
+    final_loss = train(model, X, Y, epochs=100, lr=0.1)
     dt = time.time() - start
     print(f"Training finished in {dt:.3f}s, final loss={final_loss:.6f}\n")
 
-    print("Trained parameters:")
-    for n, p in model.named_parameters():
-        print(n, p.data.numpy())
+    # print("Trained parameters:")
+    # for n, p in model.named_parameters():
+    #     print(n, p.data.numpy())
 
-    # Show inference with and without grad
-    x_test = torch.tensor([[4.0], [10.0]])
+    # # Show inference with and without grad
+    # x_test = torch.tensor([[4.0], [10.0]])
 
-    print("\nInference with autograd (requires_grad=False by default for outputs):")
-    y1 = model(x_test)
-    print(y1)
+    # print("\nInference with autograd (requires_grad=False by default for outputs):")
+    # y1 = model(x_test)
+    # print(y1)
 
-    print("\nInference with no_grad / inference_mode:")
-    y2 = inference(model, x_test)
-    print(y2)
+    # print("\nInference with no_grad / inference_mode:")
+    # y2 = inference(model, x_test)
+    # print(y2)
 
-    # Confirm that outputs are the same
-    print("\nOutputs equal:", torch.allclose(y1, y2))
+    # # Confirm that outputs are the same
+    # print("\nOutputs equal:", torch.allclose(y1, y2))
 
-    # Demonstrate that gradients are not tracked in inference context
-    with torch.no_grad():
-        y3 = model(x_test)
-    print("\nIn no_grad requires_grad of output:", y3.requires_grad)
+    # # Demonstrate that gradients are not tracked in inference context
+    # with torch.no_grad():
+    #     y3 = model(x_test)
+    # print("\nIn no_grad requires_grad of output:", y3.requires_grad)
 
-    try:
-        # if inference_mode exists, outputs also don't require grad
-        if hasattr(torch, "inference_mode"):
-            with torch.inference_mode():
-                y4 = model(x_test)
-            print("inference_mode requires_grad:", y4.requires_grad)
-    except Exception:
-        pass
+    # try:
+    #     # if inference_mode exists, outputs also don't require grad
+    #     if hasattr(torch, "inference_mode"):
+    #         with torch.inference_mode():
+    #             y4 = model(x_test)
+    #         print("inference_mode requires_grad:", y4.requires_grad)
+    # except Exception:
+    #     pass
 
-    print("\nExample complete.")
+    # print("\nExample complete.")
