@@ -25,10 +25,11 @@ After completing the main path, you should be able to:
 
 1. Read [ROADMAP.md](ROADMAP.md) to identify the current phase and weekly topic.
 2. Open the matching weekly page under `curriculum/`.
-3. Put small, disposable exercises under `labs/`.
-4. Put implementations that evolve across multiple weeks under `projects/`.
-5. Use the fixed workloads and result format under `benchmarks/` for every performance claim.
-6. Complete the matching phase report under `reports/` at the end of each phase.
+3. Before W11, read the [Tiny-LLM course mapping](curriculum/phase-02-tiny-llm/course-mapping.md).
+4. Put small, disposable exercises under `labs/`.
+5. Put implementations that evolve across multiple weeks under `projects/`.
+6. Use the fixed workloads and result format under `benchmarks/` for every performance claim.
+7. Complete the matching phase report under `reports/` at the end of each phase.
 
 The suggested pace is about eight hours per week: two hours of reading, four to five hours of coding, one to two hours of testing and benchmarking, and the remaining time for notes. Progress by acceptance criteria rather than calendar deadlines.
 
